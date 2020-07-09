@@ -28,16 +28,16 @@ class Character {
     this.row = row;
   }
   moveUp() {
-    this.row--;
+    this.row === 0 ? 0 : this.row--;
   }
   moveDown() {
-    this.row++;
+    this.row === 9 ? 9 : this.row++;
   }
   moveRight() {
-    this.col++;
+    this.col === 9 ? 9 : this.col++;
   }
   moveLeft() {
-    this.col--;
+    this.col === 0 ? 0 : this.col--;
   }
 }
 
