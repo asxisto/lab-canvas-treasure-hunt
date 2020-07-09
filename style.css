@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  padding-top: 10%;
+}
